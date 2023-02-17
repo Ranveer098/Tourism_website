@@ -2,46 +2,57 @@
 *{
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 .nk{
-  position:absolute;
+  /* position:absolute; */
+  display: flex;
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 60px;
-  left: 25%;
-  top:5%;
+  /* left: 25%; */
+  margin: 50px 0;
   color:rgb(225, 0, 147);
   font-weight: bold;
+  justify-content: center;
 
 }
 body{
-  background:url(../log_in.jpg) no-repeat center center fixed;
+  background:url(../image/log_in.jpg) no-repeat center center fixed;
   background-size: cover;
+  margin: 0 auto 0 auto;
 }
 .container{
-  position:absolute;
+  display:flexbox;
+  margin: 0 35vw 0 35vw;
   color: azure;
-  top:35%;
-  left: 40%;
+  /* top:35%;
+  left: 40%; */
 
 }
 .container h1{
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 45px;
-  display: inline;
+  display: flex;
+  justify-content: center;
+  /* display: inline; */
   border-bottom:5px solid rgb(4, 134, 0);
   margin-bottom:25px;
   padding: 13px 0;
 }
 .box{
+  display: flex;
+  justify-content: center;
   width: 100%;
   margin: 22px 0px;
-  border-bottom:2px solid rgb(13, 128, 0) ;
+  border-bottom:2px solid rgb(13, 128, 0);
+  align-items: center;
+  justify-content: center;
   
 }
 .box input{
   font-family: 'Love Ya Like A Sister', cursive;
   background: none;
+  color: red;
   font-weight: bold;
   width: 75%;
   padding: 10px 10px;
@@ -50,6 +61,12 @@ body{
   outline: none;
   
 }
+
+::placeholder {
+  color: red;
+  opacity: 1;
+}
+
 .box i{
   width: 25px;
   text-align: center;
@@ -59,10 +76,11 @@ body{
  .btn:hover{
   color: purple;
   background: whitesmoke;
-  
-  
-
+  cursor: pointer;
+  display: flex;
+  /* margin: 0 auto 0 auto; */
  }
+
  .btn{
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 23px;
