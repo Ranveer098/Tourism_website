@@ -11,13 +11,14 @@
   font-size: 60px;
   /* left: 25%; */
   margin: 50px 0;
-  color:rgb(225, 0, 147);
-  font-weight: bold;
+  color:snow;
+  border-color: black;
+
   justify-content: center;
 
 }
 body{
-  background:url(../image/log_in.jpg) no-repeat center center fixed;
+  background:url(../image/pexels-artem-lysenko-2014460.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0 auto 0 auto;
 }
@@ -52,7 +53,7 @@ body{
 .box input{
   font-family: 'Love Ya Like A Sister', cursive;
   background: none;
-  color: red;
+  color:rgb(0, 0, 0);
   font-weight: bold;
   width: 75%;
   padding: 10px 10px;
@@ -63,18 +64,19 @@ body{
 }
 
 ::placeholder {
-  color: red;
+  color:#800080;
   opacity: 1;
 }
 
 .box i{
   width: 25px;
   text-align: center;
-  color: rgb(255, 9, 161);
+  color: #800080;
+  
 
  }
  .btn:hover{
-  color: purple;
+  color: #800080;
   background: whitesmoke;
   cursor: pointer;
   display: flex;
@@ -85,4 +87,10 @@ body{
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 23px;
   color: rgb(252, 7, 7);
+ }
+ .main{
+  position: absolute;
+  top: 90%;
+  font-family: 'Love Ya Like A Sister', cursive;
+  
  }
