@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ :root{
+  --navbar-height:59px;
+ }
+#navbar{
+  display: flex;
+  align-items: center;
+
+}
+#logo{
+  margin: 10px 34px;
+}
+#logo img{
+  height: 59px;
+  margin: 3px 6px;
+}
+#navbar ul{
+  display:flex;
+  list-style: none;
+  font: 1.3rem;
+}
+#navbar ul{
+  position: relative;
+}
+#navbar{
+  display: flex;
+}
+
+
+
+#navbar ul li a{
+  display: block;
+  padding:3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover{
+  color: black;
+  background-color: snow;
+}

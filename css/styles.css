@@ -90,7 +90,9 @@ body{
  }
  .main{
   position: absolute;
+  background-color:skyblue;
   top: 90%;
   font-family: 'Love Ya Like A Sister', cursive;
+  
   
  }
