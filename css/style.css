@@ -40,7 +40,7 @@ opacity: 0.4;
 
 
 #navbar ul li a{
-  color: aliceblue;
+  color: rgb(4, 137, 254);
   display: block;
   padding:3px 22px;
   border-radius: 20px;
@@ -56,4 +56,14 @@ opacity: 0.4;
   padding:3px 200px;
   justify-content: center;
   align-items: center;
+}
+#home::before{
+  content: "";
+  position: absolute;
+  background: url('../image/log_in.jpg');
+
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  
 }
