@@ -24,6 +24,7 @@
 }
 #navbar ul{
   position: relative;
+  font-family: 'Love Ya Like A Sister', cursive;
 }
 #navbar{
   display: flex;
@@ -40,7 +41,7 @@ opacity: 0.4;
 
 
 #navbar ul li a{
-  color: rgb(4, 137, 254);
+  color: snow;
   display: block;
   padding:3px 22px;
   border-radius: 20px;
@@ -54,16 +55,63 @@ opacity: 0.4;
   display: flex;
   flex-direction: column;
   padding:3px 200px;
+  /* height: 400px; */
   justify-content: center;
   align-items: center;
 }
 #home::before{
   content: "";
   position: absolute;
-  background: url('../image/log_in.jpg');
+  background: url('../image/log.jpg') no-repeat center/cover;
 
   height: 100%;
   width: 100%;
   z-index: -1;
+  opacity: 0.89;
   
+}
+#home h1{
+  color: white;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  
+}
+#home p{
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Bree Serif', serif;
+}
+#services{
+  margin: 34px;
+  
+}
+#services.box{
+  border: 2px solid brown ;
+}
+#services.box img{
+  height: 50px;
+  width: 50px;
+  
+}
+.h-primary{
+  font-size: 3.8rem;
+  padding: 12px;
+}
+.h-secondary{
+  font-size: 2.8rem;
+  padding: 12px;
+}
+.btn{
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font-size:1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.center{
+  text-align: center;
 }
