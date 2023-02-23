@@ -2,12 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tourism In Nepal|Tourisminnepal.com</title>
-
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sty.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1170px)"
+      href="css/phone.css"
+    />
+    <link rel=" icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,34 +26,134 @@
         <img src="image/logo.png" height="100px" alt="Tourism in nepal" />
       </div>
       <ul>
-        <li class="item"><a href="#">Home</a></li>
-        <li class="item"><a href="#">Services</a></li>
-        <li class="item"><a href="#">About us</a></li>
-        <li class="item"><a href="#">contact us</a></li>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#services-container">Services</a></li>
+        <li class="item"><a href="#client-section">Our Clients</a></li>
+        <li class="item"><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
+
     <section id="home">
       <h1 class="h-primary">Welcome to Mt.Everest Tourism</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aut
-        sectetur adipisicing elit. Sapiente aut
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis
+        dolorum numquam minus.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aut
-      </p>
-      <button class="btn">Book now</button>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <button class="btn">Book Now</button>
     </section>
-    <section class="service-container">
+
+    <section id="services-container">
       <h1 class="h-primary center">Our Services</h1>
       <div id="services">
         <div class="box">
-          <img src="image/trekking.jpg"height="100px"  alt="Trekking" />
+          <img src="image/trekking1.jpg" alt="" />
           <h2 class="h-secondary center">Mountain Trekking</h2>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eligendi iure fuga enim excepturi soluta autem delectus </p>
+          <p class="center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem,
+            culpa suscipit error Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Et qui, repudiandae similique nam, recusandae
+            quidem ab asperiores ex, aut fugit labore veritatis facere? sint
+            delectus ab dolorum nam. Debitis facere, incidunt voluptates eos,
+            mollitia voluptatem iste sunt voluptas beatae facilis labore, omnis
+            sint quae eum.
+          </p>
         </div>
-
-
+        <div class="box">
+          <img src="image/camping.jpg" alt="" />
+          <h2 class="h-secondary center">Camping</h2>
+          <p class="center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem,
+            culpa suscipit error Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Unde laudantium a incidunt animi ad, ab
+            dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
+            sint delectus ab dolorum nam. Debitis facere, incidunt voluptates
+            eos, mollitia voluptatem iste sunt voluptas beatae facilis labore,
+            omnis sint quae eum.
+          </p>
+        </div>
+        <div class="box">
+          <img src="image/sky.jpg" alt="" />
+          <h2 class="h-secondary center">Sky Diving</h2>
+          <p class="center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem,
+            culpa suscipit error Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Necessitatibus provident fugiat aliquam minima at
+            explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas!
+            Quis. sint delectus ab dolorum nam. Debitis facere, incidunt
+            voluptates eos, mollitia voluptatem iste sunt voluptas beatae
+            facilis labore, omnis sint quae eum.
+          </p>
+        </div>
       </div>
     </section>
+    <section id="client-section">
+      <h1 class="h-primary center">Our Clients From</h1>
+      <div id="clients">
+        <div class="client-item">
+          <img src="image/india-g695b00595_1280.png" alt="Our Client" />
+        </div>
+        <div class="client-item">
+          <img src="image/australia-g99262bdc9_1280.png" alt="Our Client" />
+        </div>
+
+        <div class="client-item">
+          <img src="image/american-flag-g814b6b257_1280.png" alt="Our Client" />
+        </div>
+        <div class="client-item">
+          <img src="image/argentina-g511664d35_1280.png" alt="Our Client" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 class="h-primary center">Contact Us</h1>
+      <div id="contact-box">
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="name"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number: </label>
+            <input
+              type="phone"
+              name="name"
+              id="phone"
+              placeholder="Enter your phone"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message: </label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="center">
+        Copyright &copy; www.Tourisminnepal.com. All rights reserved!
+      </div>
+    </footer>
   </body>
 </html>
